@@ -1,0 +1,234 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: 0;
+
+}
+a{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #f2f5f7;
+    /*fixo*/
+    position: fixed;
+    /*vw largura do navegador*/
+    width: 100vw;
+}
+#logo{
+    width: 150px;
+}
+/*Para as nav ficarem em linha nao e coluna*/
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*Aumanetando a altura do header*/
+    padding: 5px;
+}
+header nav a{
+    font-weight: bold;
+    color: #211b15;
+    padding: 5vh;
+    /*ficar devagar ao passar o mouse*/
+    transition: background-color 1s;
+}
+/*quando passar por cima do mouse*/
+header nav a:hover{
+    color: #f2f5f7;
+    background-color: #f1f1f1;
+}
+
+.grupo{
+    height: 100vh;
+}
+
+section {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#tiana{
+    background-image: linear-gradient(to bottom,#89db95,#9c9760)
+}
+
+
+#caixa-branca-tiana {
+    box-shadow: 4px 4px 10px rgba(16, 16, 16, 0.1);
+    margin-top: 380px;
+    margin-left: 5px;
+    margin-right: 50px;
+    background-color: rgba(242, 245, 247, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+
+
+#caixa-branca-tiana h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #97e7b5; 
+}
+
+#caixa-branca-tiana p{
+    margin-top: 0px;
+}
+
+#tianaimg{
+    margin-top: 100px;
+    width: 650px;
+    height: auto;
+    margin-right: 100px;
+}
+
+#Cinderela{
+    background-image: linear-gradient(to bottom,#f2f5f7,#37a1ed)
+}
+
+#caixa-branca-cinderela{
+    box-shadow: 4px 4px 10px rgba(16, 16, 16, 0.1);
+    margin-top: 380px;
+    margin-left: 5px;
+    margin-right: 50px;
+    background-color: rgba(242, 245, 247, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+#caixa-branca-cinderela h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #6eb2c8; 
+}
+
+#caixa-branca-cinderela p{
+    margin-top: 0px;
+}
+
+#cinderela img{
+    margin-top: 100px;
+    width: 550px;
+    height: auto;
+    margin-right: 200px;
+}
+
+#Mulan{
+    background-image: linear-gradient(to bottom,#cfe1ec,#65b2d8)
+}
+
+
+#caixa-branca-mulan{
+    box-shadow: 4px 4px 10px rgba(16, 16, 16, 0.1);
+    margin-top: 480px;
+    margin-left: 5px;
+    margin-right: 50px;
+    background-color: rgba(242, 245, 247, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+#caixa-branca-mulan h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #3a3b8b; 
+}
+
+#caixa-branca-mulan{
+    margin-top: 0px;
+}
+
+#mulan img{
+    margin-top: 100px;
+    width: 550px;
+    height: auto;
+    margin-right: 200px;
+}
+
+#bela-adormecida{
+    background-image: linear-gradient(to bottom,#f2f5f7,#c056ae)
+}
+
+
+
+#caixa-branca-bela-adormecida{
+    box-shadow: 4px 4px 10px rgba(16, 16, 16, 0.1);
+    margin-top: 480px;
+    margin-left: 5px;
+    margin-right: 50px;
+    background-color: rgba(242, 245, 247, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+#caixa-branca-bela h1{
+    font-size: 60px;    color: #6b3fa0; 
+}
+
+#caixa-branca-bela p{
+    margin-top: 0px;
+}
+
+#bela-adormecidaimg{
+    margin-top: 100px;
+    width: 580px;
+    height: auto;
+    margin-right: 200px;
+}
+
+#bella{
+    background-image: linear-gradient(to bottom,#f2f5f7,#d60d0d)
+}
+
+
+#caixa-branca-bella{
+    box-shadow: 4px 4px 10px rgba(16, 16, 16, 0.1);
+    margin-top: 480px;
+    margin-left: 5px;
+    margin-right: 50px;
+    background-color: rgba(242, 245, 247, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+#caixa-branca-bella h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #f4d5d5; 
+}
+
+#caixa-branca-bella p{
+    margin-top: 0px;
+}
+
+#bellaimg{
+    margin-top: 280px;
+    width: 990px;
+    height: auto;
+    margin-right: 200px;
+}
